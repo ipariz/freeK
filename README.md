@@ -1,2 +1,2 @@
 # freeK
-first project in github
+a django restful project using mysql and mongodb
