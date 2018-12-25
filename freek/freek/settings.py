@@ -81,7 +81,13 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'freek',
         'USER': 'root',
-    }
+    },
+    'log_db': {
+        'ENGINE': 'djongo',
+        'NAME': 'mongolog',
+        'USER': 'myUserAdmin',
+        'PASSWORD': 'abc123',
+    },
 }
 
 
