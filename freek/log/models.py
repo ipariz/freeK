@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+class Log(models.Model):
+    path = models.TextField()
+    method = models.CharField(max_length=10)
+    client_ip = models.GenericIPAddressField()
+    query = models.TextField()
