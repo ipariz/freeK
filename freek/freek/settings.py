@@ -88,6 +88,7 @@ DATABASES = {
         'NAME': 'mongolog',
         'USER': 'myUserAdmin',
         'PASSWORD': 'abc123',
+        'ENFORCE_SCHEMA': False,
     },
 }
 
