@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^restful/', include('restful.urls')),
+    url(r'^log/', include('log.urls')),
 ]
